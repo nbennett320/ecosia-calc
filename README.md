@@ -1,6 +1,6 @@
 ![a picture of my example plugin](./screenshots/1.png)
 ## ecosia-plugin-react
-**An easy to use plugin that makes planting trees even easier**
+**An easy to use tool that makes planting trees even easier**
 
 ### About
 This is boilerplate code for making a search extension for Ecosia, most of which is forked from [kryptokinght's react-extension-boilerplate](https://github.com/kryptokinght/react-extension-boilerplate). It allows developers to easily create cool features like DuckDuckGo's [password generation feature](https://duckduckgo.com/?q=password+strong+12&ia=answer) _[(more info)](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/)_ or Google(🤢)'s [timer feature](https://www.google.com/search?q=timer) with React.
