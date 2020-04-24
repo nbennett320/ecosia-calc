@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "name": "Ecosia Calculator",
+  "short_name": "Ecosia Calc",
+  "description": "An environmentally friendly calculator.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.ecosia.org/*"
+      ],
+      "js": [
+        "lib/js/browser-polyfill.js",
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "*://*.ecosia.org/*",
+    "storage",
+    "unlimitedStorage"
+  ],
+  "icons": {
+    "128": "img/icon-128.png",
+    "256": "img/icon-256.png",
+    "512": "img/icon-512.png"
+  }
+}

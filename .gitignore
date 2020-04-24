@@ -1,0 +1,7 @@
+node_modules
+old-extension
+dist
+extension
+dev
+.vscode
+other
