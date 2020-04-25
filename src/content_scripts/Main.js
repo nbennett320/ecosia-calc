@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Calculator from './Calculator'
 import Graph from './Graph'
-import Bottom from './Footer'
+import Footer from './Footer'
 
 export default class Main extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class Main extends Component {
       <div className="widget-container" style={styles.main}>
         {type === 'expression' && <Calculator query={query} />}
         {type === 'function' && <Graph query={query} />}
-        <Bottom />
+        <Footer />
       </div>
     )
   }
