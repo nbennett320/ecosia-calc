@@ -91,7 +91,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-app-polyfill": "^0.2.0",
-    "react-dev-utils": "^7.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.7.0",
     "resolve": "1.8.1",
     "sanitize-html-react": "^1.13.0",
